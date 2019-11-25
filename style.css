@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(163deg, 
+    	rgba(2,0,36,0.7693452380952381) 0%, 
+    	rgba(1,19,27,1) 13%, 
+    	rgba(0,101,255,1) 65%);
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.location, .temperature1 {
+	height: 30vh;
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.temperature1 {
+	flex-direction: column;
+}
+
+.temperature-section {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.temperature-section h1 {
+	font-size: 10rem;
+}
+
+.temperature-section h2 {
+	font-size: 8rem;
+}
+
+.icon {
+	margin-left: 5rem;
+}
+
+.temp-unit {
+	margin-left: 3rem;
+}
